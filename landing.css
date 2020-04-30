@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+header {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.container {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+}
+.topleft {
+    flex: 2;
+    height: 100px;
+}
+.image {
+    flex: 1;
+    height: 90px;
+    margin-top: 10px;
+}
+.topright {
+    flex: 2;
+}
+.menu {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.menu ul a {
+    display: inline-block;
+    text-decoration: none;
+    align-items: flex-end;
+    list-style: none;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: black;
+}
+.menu li {
+    font-size: 30px;
+    margin-right: 75px;
+}
+.menu ul a:hover {
+    background-color: lightgreen;
+    color: mediumblue;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(./imagens/banner.jpg);
+}
